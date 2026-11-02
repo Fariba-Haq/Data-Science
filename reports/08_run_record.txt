@@ -1,0 +1,6 @@
+timestamp      : 2026-08-15 12:47:21
+R version      : R version 4.6.0 (2026-04-24 ucrt)
+seed           : 13
+permutations   : 2000
+noise floor L1 (k=10): 0.8585
+noise floor RF (k=10): 0.7445

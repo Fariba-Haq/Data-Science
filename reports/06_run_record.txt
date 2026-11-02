@@ -1,0 +1,14 @@
+timestamp       : 2026-08-15 11:53:46
+R version       : R version 4.6.0 (2026-04-24 ucrt)
+seed            : 13
+BASE_MIX        : uniform
+CONFIG_ROWS     : 30000  (15000 benign + 15000 attack)
+configurations  : 225
+  control       : 20
+  drop_one      : 70
+  dirichlet     : 125
+  reference     : 10
+n identical     : TRUE
+benign frac id. : TRUE
+shortfalls      : 0
+max JS from base: 0.4366

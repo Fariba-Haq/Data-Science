@@ -1,0 +1,20 @@
+CLEANING RULE (as applied)
+
+Raw feature columns in this release        : 39
+Removed, exact duplicates / perfect collinearity:
+  Tot size  == AVG            (bit-identical)
+  LLC       == IPv            (bit-identical)
+  IPv       == 1 - ARP        (r = -1.000, max dev 2.4e-16)
+Retained                                    : 36
+
+Near-constant columns were NOT removed. Justification:
+  Sparsity in this dataset is class-conditional (e.g. SSH is non-zero in
+  32.1% of BruteForce rows vs <=2.6% elsewhere; Telnet is non-zero only
+  when Recon/DoS/DDoS are present). Removing such columns during
+  preprocessing would confound the composition-sensitivity experiment.
+
+Data-quality notes:
+  Std, Variance : 100 NA rows   (4.66e-05)
+  Rate          : 104 Inf rows  (4.84e-05)
+  3 source files have a truncated final line, discarded by fread (3 rows).
+  Handled by train-fold median imputation in Stage 4.

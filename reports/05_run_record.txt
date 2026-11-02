@@ -1,0 +1,10 @@
+timestamp        : 2026-08-15 03:57:06
+R version        : R version 4.6.0 (2026-04-24 ucrt)
+seed             : 13
+training rows    : 1503267
+classes          : 8
+imbalance ratio  : 84.1 : 1
+undersample к    : 9145  (total 73160 rows)
+hybrid target    : 140408  (total 1123264 rows)
+oversample к     : 768734  (total 6149872 rows)
+max duplication  : 84.06x (BruteForce)

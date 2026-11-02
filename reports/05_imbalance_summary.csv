@@ -1,0 +1,4 @@
+method,total_rows,unique_rows,rows_discarded,max_duplication
+undersample,73160,73160,1430107,1
+hybrid,1123264,868158,635109,15.35
+oversample,6149872,1503267,0,84.06

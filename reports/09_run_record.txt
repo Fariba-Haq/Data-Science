@@ -1,0 +1,12 @@
+timestamp     : 2026-08-15 14:23:36
+R version     : R version 4.6.0 (2026-04-24 ucrt)
+ranger        : 0.18.0
+seed          : 13
+k             : 10
+trees         : 100
+test rows     : 60001
+configurations: 225
+mean f1_all   : 0.5619
+mean f1_own   : 0.5263
+mean f1_ctrl  : 0.5266
+mean selection cost: -0.0003

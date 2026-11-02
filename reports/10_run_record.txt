@@ -1,0 +1,13 @@
+timestamp     : 2026-08-15 15:13:45
+R version     : R version 4.6.0 (2026-04-24 ucrt)
+seed          : 13
+k             : 10
+control draws : 10
+random subsets: 20 per draw (200 total)
+test rows     : 39999
+all_36 mean   : 0.6773
+selected L1   : 0.6316
+selected RF   : 0.6200
+random mean   : 0.5592
+worst L1      : 0.5064
+worst RF      : 0.2796

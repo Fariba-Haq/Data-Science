@@ -1,0 +1,3 @@
+selector,n,slope_linear,r2_linear,aic_linear,aic_hyperbolic,better
+L1,205,-0.5709,0.4023,-430.5,-434.7,HYPERBOLIC
+RF,205,-0.2351,0.1557,-529,-530.6,indistinguishable

@@ -1,0 +1,11 @@
+timestamp    : 2026-08-15 16:45:43
+R version    : R version 4.6.0 (2026-04-24 ucrt)
+seed         : 13
+k            : 10
+draws        : 4
+reps / level : 5
+selectors    : L1
+test rows    : 39999
+all_36 mean  : 0.6764
+committed    : L1=0.6284
+m=0 (no overlap): L1=0.5149

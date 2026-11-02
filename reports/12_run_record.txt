@@ -1,0 +1,9 @@
+timestamp        : 2026-08-15 16:58:06
+R version        : R version 4.6.0 (2026-04-24 ucrt)
+selector         : L1
+stage 9 arms used: all
+common overlap   : 0.429 - 1.000
+cost selector    : 0.0307 (n = 225)
+cost constructed : 0.0681 (n = 84)
+ratio            : 2.22x
+wilcoxon p       : 1.382e-32

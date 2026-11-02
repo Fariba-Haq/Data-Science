@@ -1,0 +1,10 @@
+timestamp      : 2026-08-15 02:53:20
+R version      : R version 4.6.0 (2026-04-24 ucrt)
+platform       : x86_64-w64-mingw32
+data.table     : 1.18.4
+seed           : 13
+CATEGORY_CAP   : 200000
+MIN_PER_LABEL  : 3000
+BENIGN_TAKE_ALL: TRUE
+source rows    : 46776697
+working set    : 2147521

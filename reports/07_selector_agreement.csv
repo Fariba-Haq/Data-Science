@@ -1,0 +1,4 @@
+k,shared,jaccard_L1_vs_RF,only_L1,only_RF
+5,4,0.6667,Header_Length,IAT
+10,7,0.5385,"syn_flag_number, psh_flag_number, DNS","ack_flag_number, AVG, IAT"
+15,9,0.4286,"fin_flag_number, syn_flag_number, fin_count, DNS, SSH, UDP","ack_flag_number, ack_count, Tot sum, AVG, IAT, Variance"

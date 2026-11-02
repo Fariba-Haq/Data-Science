@@ -1,0 +1,8 @@
+category,natural_pct,uniform_pct,rows_if_natural,rows_if_uniform
+DDoS,74.3992,14.2857,11160,2143
+DoS,17.1746,14.2857,2576,2143
+Mirai,5.7665,14.2857,865,2143
+Recon,1.5117,14.2857,227,2143
+Spoofing,1.065,14.2857,160,2143
+Web,0.0544,14.2857,8,2143
+BruteForce,0.0286,14.2857,4,2143

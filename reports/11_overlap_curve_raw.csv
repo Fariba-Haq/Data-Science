@@ -1,0 +1,209 @@
+draw,selector,m,rep,jaccard,subset_type,features,macro_f1
+1,-,,0,,all_36,ack_count|ack_flag_number|ARP|AVG|cwr_flag_number|DHCP|DNS|ece_flag_number|fin_count|fin_flag_number|Header_Length|HTTP|HTTPS|IAT|ICMP|IGMP|IRC|Max|Min|Number|Protocol Type|psh_flag_number|Rate|rst_count|rst_flag_number|SMTP|SSH|Std|syn_count|syn_flag_number|TCP|Telnet|Time_To_Live|Tot sum|UDP|Variance,0.67764376402346
+1,L1,0,1,0,constructed,ack_flag_number|ARP|AVG|cwr_flag_number|ece_flag_number|rst_count|rst_flag_number|SMTP|TCP|UDP,0.485192411225459
+1,L1,0,2,0,constructed,ack_flag_number|ece_flag_number|HTTP|ICMP|IRC|Min|Telnet|Tot sum|UDP|Variance,0.560459563964643
+1,L1,0,3,0,constructed,ack_flag_number|ece_flag_number|fin_flag_number|IGMP|Min|Protocol Type|rst_flag_number|SSH|UDP|Variance,0.534523941028598
+1,L1,0,4,0,constructed,ack_count|AVG|ece_flag_number|fin_flag_number|IRC|Min|rst_count|SSH|Tot sum|UDP,0.555435568541496
+1,L1,0,5,0,constructed,AVG|fin_count|ICMP|IRC|Min|Protocol Type|SMTP|SSH|syn_count|TCP,0.534294910806208
+1,L1,1,1,0.0526315789473684,constructed,ack_count|cwr_flag_number|fin_count|HTTP|HTTPS|ICMP|IRC|SSH|syn_count|UDP,0.445409481218211
+1,L1,1,2,0.0526315789473684,constructed,ack_flag_number|ece_flag_number|fin_count|IGMP|Protocol Type|rst_flag_number|SSH|Std|Tot sum|Variance,0.550134432963656
+1,L1,1,3,0.0526315789473684,constructed,ack_count|Header_Length|IAT|ICMP|IGMP|Protocol Type|rst_count|SSH|syn_count|Variance,0.572121923979811
+1,L1,1,4,0.0526315789473684,constructed,AVG|cwr_flag_number|DHCP|ece_flag_number|fin_flag_number|Min|rst_flag_number|SMTP|Std|Variance,0.514467234354187
+1,L1,1,5,0.0526315789473684,constructed,ARP|AVG|fin_count|fin_flag_number|IAT|IGMP|IRC|rst_flag_number|syn_flag_number|Tot sum,0.519282409423196
+1,L1,2,1,0.111111111111111,constructed,HTTPS|IAT|ICMP|IRC|rst_flag_number|SSH|syn_count|syn_flag_number|TCP|Variance,0.562973767484874
+1,L1,2,2,0.111111111111111,constructed,cwr_flag_number|ece_flag_number|Max|rst_flag_number|syn_count|syn_flag_number|Telnet|Tot sum|UDP|Variance,0.55663604611346
+1,L1,2,3,0.111111111111111,constructed,ARP|AVG|fin_count|Header_Length|HTTP|IRC|psh_flag_number|SSH|TCP|Variance,0.569447422333165
+1,L1,2,4,0.111111111111111,constructed,ack_flag_number|DHCP|Min|Protocol Type|syn_count|syn_flag_number|Telnet|Time_To_Live|Tot sum|UDP,0.571231193806727
+1,L1,2,5,0.111111111111111,constructed,ack_flag_number|AVG|fin_count|IRC|Max|Min|syn_flag_number|Telnet|Tot sum|UDP,0.58501111865631
+1,L1,3,1,0.176470588235294,constructed,cwr_flag_number|DNS|ece_flag_number|HTTPS|IRC|Min|rst_count|syn_count|syn_flag_number|Telnet,0.439950045285274
+1,L1,3,2,0.176470588235294,constructed,ack_flag_number|ece_flag_number|fin_count|Header_Length|HTTP|HTTPS|rst_count|Time_To_Live|UDP|Variance,0.530732126735494
+1,L1,3,3,0.176470588235294,constructed,AVG|DHCP|Header_Length|HTTP|HTTPS|IAT|ICMP|SMTP|Time_To_Live|UDP,0.586109847331547
+1,L1,3,4,0.176470588235294,constructed,ack_count|ack_flag_number|ARP|fin_count|IRC|Max|Number|Protocol Type|Rate|UDP,0.593756220161335
+1,L1,3,5,0.176470588235294,constructed,ack_flag_number|DHCP|fin_count|Header_Length|Min|Rate|rst_flag_number|SSH|Std|Tot sum,0.62558296645632
+1,L1,4,1,0.25,constructed,fin_flag_number|Header_Length|IRC|Max|Protocol Type|Rate|SMTP|Telnet|Time_To_Live|Tot sum,0.605648630900096
+1,L1,4,2,0.25,constructed,cwr_flag_number|fin_count|fin_flag_number|HTTPS|IRC|psh_flag_number|Rate|Telnet|Time_To_Live|UDP,0.511790929875215
+1,L1,4,3,0.25,constructed,AVG|DHCP|fin_flag_number|Header_Length|HTTPS|Max|SMTP|Telnet|Time_To_Live|Tot sum,0.595688570450217
+1,L1,4,4,0.25,constructed,ack_count|Header_Length|IGMP|psh_flag_number|rst_count|SMTP|syn_flag_number|TCP|Time_To_Live|Tot sum,0.578097758132543
+1,L1,4,5,0.25,constructed,ack_flag_number|Header_Length|HTTP|HTTPS|IRC|Number|Protocol Type|psh_flag_number|SMTP|UDP,0.493116372556051
+1,L1,5,1,0.333333333333333,constructed,DNS|fin_flag_number|Header_Length|IRC|Number|Protocol Type|psh_flag_number|Rate|rst_flag_number|SSH,0.561316137296552
+1,L1,5,2,0.333333333333333,constructed,DHCP|DNS|HTTP|IAT|IRC|Number|psh_flag_number|Std|syn_flag_number|TCP,0.549690018002526
+1,L1,5,3,0.333333333333333,constructed,ARP|DNS|ece_flag_number|fin_count|HTTPS|ICMP|Number|syn_flag_number|Time_To_Live|Variance,0.489435602611814
+1,L1,5,4,0.333333333333333,constructed,DHCP|DNS|Max|Min|Rate|SMTP|SSH|syn_flag_number|Time_To_Live|UDP,0.611971689118827
+1,L1,5,5,0.333333333333333,constructed,ack_count|cwr_flag_number|DHCP|Header_Length|HTTPS|IGMP|Number|Rate|Time_To_Live|Tot sum,0.59106510094647
+1,L1,6,1,0.428571428571429,constructed,fin_count|HTTP|ICMP|Max|Number|psh_flag_number|Rate|Std|Time_To_Live|Tot sum,0.628984788263023
+1,L1,6,2,0.428571428571429,constructed,cwr_flag_number|DNS|ece_flag_number|HTTPS|Number|rst_flag_number|Std|syn_flag_number|TCP|Time_To_Live,0.502721987498718
+1,L1,6,3,0.428571428571429,constructed,Header_Length|IAT|Min|Number|psh_flag_number|Rate|syn_count|syn_flag_number|Time_To_Live|UDP,0.585821657677768
+1,L1,6,4,0.428571428571429,constructed,ARP|cwr_flag_number|DNS|HTTPS|Max|Rate|rst_flag_number|Std|syn_flag_number|UDP,0.597166307670625
+1,L1,6,5,0.428571428571429,constructed,cwr_flag_number|DHCP|DNS|Max|Protocol Type|psh_flag_number|Std|syn_flag_number|TCP|Time_To_Live,0.581302728931429
+1,L1,7,1,0.538461538461538,constructed,cwr_flag_number|Header_Length|HTTPS|ICMP|Number|psh_flag_number|Rate|syn_count|syn_flag_number|Time_To_Live,0.56757797604242
+1,L1,7,2,0.538461538461538,constructed,ece_flag_number|Header_Length|HTTPS|ICMP|Max|Number|psh_flag_number|Rate|Std|syn_count,0.621580693488543
+1,L1,7,3,0.538461538461538,constructed,ack_flag_number|Header_Length|HTTPS|IGMP|Max|Number|psh_flag_number|Rate|SMTP|Std,0.613435008220071
+1,L1,7,4,0.538461538461538,constructed,fin_count|fin_flag_number|Header_Length|HTTPS|Max|Number|Rate|SMTP|Std|Time_To_Live,0.61850627868972
+1,L1,7,5,0.538461538461538,constructed,DNS|Header_Length|IAT|Max|psh_flag_number|Rate|rst_count|syn_flag_number|Time_To_Live|UDP,0.617799576664206
+1,L1,8,1,0.666666666666667,constructed,ack_flag_number|DNS|fin_flag_number|HTTPS|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live,0.583965388678975
+1,L1,8,2,0.666666666666667,constructed,AVG|DNS|Header_Length|Max|Number|psh_flag_number|Rate|Std|Time_To_Live|Tot sum,0.612701735439185
+1,L1,8,3,0.666666666666667,constructed,AVG|cwr_flag_number|Header_Length|HTTPS|Max|Number|psh_flag_number|Std|syn_flag_number|Time_To_Live,0.608158939589015
+1,L1,8,4,0.666666666666667,constructed,AVG|DNS|Header_Length|Number|psh_flag_number|Rate|SMTP|Std|syn_flag_number|Time_To_Live,0.599438690692877
+1,L1,8,5,0.666666666666667,constructed,ack_count|DNS|ICMP|Max|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live,0.615865917080845
+1,L1,9,1,0.818181818181818,constructed,DNS|Header_Length|HTTPS|Max|Number|psh_flag_number|Std|syn_count|syn_flag_number|Time_To_Live,0.606164354270549
+1,L1,9,2,0.818181818181818,constructed,DNS|Header_Length|HTTPS|ICMP|Max|Number|psh_flag_number|Std|syn_flag_number|Time_To_Live,0.607235077076599
+1,L1,9,3,0.818181818181818,constructed,DNS|Header_Length|HTTPS|IGMP|Max|Number|Rate|Std|syn_flag_number|Time_To_Live,0.617477796181491
+1,L1,9,4,0.818181818181818,constructed,DNS|Header_Length|HTTPS|Max|psh_flag_number|Rate|SSH|Std|syn_flag_number|Time_To_Live,0.630572093911706
+1,L1,9,5,0.818181818181818,constructed,DNS|Header_Length|HTTPS|Max|Number|psh_flag_number|Rate|syn_flag_number|TCP|Time_To_Live,0.625516732994719
+1,L1,10,1,1,committed,DNS|Header_Length|HTTPS|Max|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live,0.627860862960347
+2,-,,0,,all_36,ack_count|ack_flag_number|ARP|AVG|cwr_flag_number|DHCP|DNS|ece_flag_number|fin_count|fin_flag_number|Header_Length|HTTP|HTTPS|IAT|ICMP|IGMP|IRC|Max|Min|Number|Protocol Type|psh_flag_number|Rate|rst_count|rst_flag_number|SMTP|SSH|Std|syn_count|syn_flag_number|TCP|Telnet|Time_To_Live|Tot sum|UDP|Variance,0.676535569767182
+2,L1,0,1,0,constructed,ack_count|ack_flag_number|ece_flag_number|fin_count|HTTP|IAT|Min|rst_flag_number|SSH|Variance,0.586967853742863
+2,L1,0,2,0,constructed,ack_flag_number|ece_flag_number|IRC|rst_count|rst_flag_number|SSH|syn_count|TCP|Telnet|Variance,0.421850808534327
+2,L1,0,3,0,constructed,AVG|cwr_flag_number|fin_count|ICMP|IRC|rst_count|Telnet|Tot sum|UDP|Variance,0.53509250698183
+2,L1,0,4,0,constructed,ack_count|ack_flag_number|AVG|IAT|IGMP|Min|syn_count|Telnet|Tot sum|UDP,0.573914723037786
+2,L1,0,5,0,constructed,ARP|AVG|cwr_flag_number|DHCP|Min|rst_flag_number|SSH|TCP|UDP|Variance,0.531966906986959
+2,L1,1,1,0.0526315789473684,constructed,ack_count|cwr_flag_number|DHCP|fin_count|Header_Length|HTTP|IAT|ICMP|TCP|Variance,0.573892348315998
+2,L1,1,2,0.0526315789473684,constructed,DHCP|fin_count|fin_flag_number|HTTP|IRC|Number|rst_count|syn_count|Telnet|Tot sum,0.454607057087839
+2,L1,1,3,0.0526315789473684,constructed,AVG|DHCP|HTTP|IAT|ICMP|Protocol Type|Rate|rst_flag_number|SSH|Telnet,0.552768837350638
+2,L1,1,4,0.0526315789473684,constructed,AVG|cwr_flag_number|ece_flag_number|ICMP|Protocol Type|rst_flag_number|SMTP|syn_count|Telnet|Time_To_Live,0.512591979394036
+2,L1,1,5,0.0526315789473684,constructed,AVG|fin_flag_number|IAT|IRC|Protocol Type|SSH|syn_flag_number|TCP|Telnet|Variance,0.566649827787122
+2,L1,2,1,0.111111111111111,constructed,DHCP|DNS|ece_flag_number|IAT|IRC|Min|rst_flag_number|Time_To_Live|UDP|Variance,0.56971000974624
+2,L1,2,2,0.111111111111111,constructed,ack_count|DHCP|fin_flag_number|ICMP|IGMP|IRC|Number|psh_flag_number|rst_count|rst_flag_number,0.387798188116687
+2,L1,2,3,0.111111111111111,constructed,DHCP|ece_flag_number|fin_flag_number|HTTP|ICMP|IRC|Number|Time_To_Live|Tot sum|Variance,0.55118682465427
+2,L1,2,4,0.111111111111111,constructed,ack_flag_number|DHCP|fin_flag_number|HTTPS|IAT|Max|SMTP|Tot sum|UDP|Variance,0.609859211309991
+2,L1,2,5,0.111111111111111,constructed,ack_count|ack_flag_number|fin_count|fin_flag_number|HTTP|HTTPS|IAT|Min|syn_flag_number|Tot sum,0.607453201753728
+2,L1,3,1,0.176470588235294,constructed,DNS|fin_count|Header_Length|HTTP|IRC|Number|Protocol Type|rst_flag_number|syn_count|Variance,0.524635986587202
+2,L1,3,2,0.176470588235294,constructed,ack_flag_number|AVG|cwr_flag_number|DHCP|HTTPS|IAT|SSH|Std|syn_flag_number|Variance,0.584955283400956
+2,L1,3,3,0.176470588235294,constructed,ack_flag_number|cwr_flag_number|DNS|ece_flag_number|fin_count|HTTP|ICMP|Number|Protocol Type|Time_To_Live,0.488655413657269
+2,L1,3,4,0.176470588235294,constructed,DHCP|HTTPS|IAT|ICMP|Max|Min|Number|rst_flag_number|SMTP|TCP,0.618576543920732
+2,L1,3,5,0.176470588235294,constructed,ack_count|ack_flag_number|ICMP|Rate|rst_count|rst_flag_number|SMTP|syn_flag_number|Telnet|Time_To_Live,0.535204786886782
+2,L1,4,1,0.25,constructed,ack_flag_number|Header_Length|IGMP|Rate|rst_count|rst_flag_number|Std|syn_flag_number|Telnet|Variance,0.557868948261903
+2,L1,4,2,0.25,constructed,fin_count|fin_flag_number|Header_Length|HTTP|IGMP|Protocol Type|psh_flag_number|Rate|SSH|Time_To_Live,0.571643217182626
+2,L1,4,3,0.25,constructed,ack_count|ARP|DHCP|DNS|Rate|rst_count|Std|syn_count|syn_flag_number|Tot sum,0.578368541643654
+2,L1,4,4,0.25,constructed,DHCP|fin_count|HTTP|Max|Min|Rate|SMTP|SSH|Std|syn_flag_number,0.608678387336518
+2,L1,4,5,0.25,constructed,ARP|AVG|Header_Length|HTTP|Std|syn_count|syn_flag_number|Time_To_Live|Tot sum|Variance,0.569555983962152
+2,L1,5,1,0.333333333333333,constructed,cwr_flag_number|Header_Length|HTTPS|ICMP|IGMP|Number|rst_count|Std|syn_count|syn_flag_number,0.524886469183497
+2,L1,5,2,0.333333333333333,constructed,DNS|ece_flag_number|Header_Length|HTTPS|IGMP|IRC|Rate|rst_count|SSH|Std,0.563956394581759
+2,L1,5,3,0.333333333333333,constructed,cwr_flag_number|HTTPS|ICMP|Max|Number|SMTP|SSH|syn_count|syn_flag_number|Time_To_Live,0.575528080772927
+2,L1,5,4,0.333333333333333,constructed,DHCP|ece_flag_number|Header_Length|HTTPS|IGMP|Number|psh_flag_number|SMTP|Time_To_Live|Variance,0.507086944399446
+2,L1,5,5,0.333333333333333,constructed,ack_count|fin_flag_number|HTTPS|IRC|Max|Number|Protocol Type|Rate|Std|syn_count,0.627267397002966
+2,L1,6,1,0.428571428571429,constructed,AVG|DNS|ece_flag_number|fin_count|HTTP|HTTPS|Max|Number|Std|syn_flag_number,0.567191323863668
+2,L1,6,2,0.428571428571429,constructed,DHCP|DNS|HTTP|HTTPS|Min|Number|Std|syn_flag_number|Time_To_Live|Variance,0.557744820169044
+2,L1,6,3,0.428571428571429,constructed,ece_flag_number|HTTPS|IRC|Max|Rate|Std|syn_count|syn_flag_number|Time_To_Live|UDP,0.599706258454837
+2,L1,6,4,0.428571428571429,constructed,DNS|HTTPS|IRC|Max|Number|Rate|Telnet|Time_To_Live|Tot sum|UDP,0.600712753126927
+2,L1,6,5,0.428571428571429,constructed,ARP|Header_Length|HTTPS|Max|Protocol Type|psh_flag_number|Rate|SSH|Time_To_Live|Tot sum,0.631334082355697
+2,L1,7,1,0.538461538461538,constructed,DHCP|DNS|Header_Length|HTTP|HTTPS|Rate|Std|syn_flag_number|TCP|Time_To_Live,0.584231127776303
+2,L1,7,2,0.538461538461538,constructed,DNS|ece_flag_number|Header_Length|IGMP|Max|Number|Rate|Std|TCP|Time_To_Live,0.597969155083908
+2,L1,7,3,0.538461538461538,constructed,Header_Length|HTTPS|IGMP|Max|psh_flag_number|rst_count|SSH|Std|syn_flag_number|Time_To_Live,0.627082133983887
+2,L1,7,4,0.538461538461538,constructed,ack_flag_number|Header_Length|HTTP|HTTPS|Number|Rate|rst_flag_number|Std|syn_flag_number|Time_To_Live,0.611760399659507
+2,L1,7,5,0.538461538461538,constructed,ece_flag_number|Header_Length|HTTPS|IAT|Max|Number|Protocol Type|psh_flag_number|Std|syn_flag_number,0.624816003526995
+2,L1,8,1,0.666666666666667,constructed,AVG|DNS|Header_Length|Max|Number|Protocol Type|psh_flag_number|Rate|syn_flag_number|Time_To_Live,0.619708773708409
+2,L1,8,2,0.666666666666667,constructed,DNS|Max|Number|psh_flag_number|Rate|SSH|Std|syn_flag_number|Time_To_Live|UDP,0.609751644402515
+2,L1,8,3,0.666666666666667,constructed,DNS|Header_Length|HTTPS|Max|psh_flag_number|Rate|SMTP|syn_flag_number|TCP|Time_To_Live,0.62061727244263
+2,L1,8,4,0.666666666666667,constructed,DNS|ece_flag_number|fin_flag_number|Header_Length|HTTPS|Max|psh_flag_number|Rate|syn_flag_number|Time_To_Live,0.63432004650529
+2,L1,8,5,0.666666666666667,constructed,DNS|Header_Length|HTTPS|Number|psh_flag_number|Rate|rst_flag_number|SSH|Std|syn_flag_number,0.605619919308943
+2,L1,9,1,0.818181818181818,constructed,DNS|HTTP|HTTPS|Max|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live,0.615825630829027
+2,L1,9,2,0.818181818181818,constructed,DNS|Header_Length|HTTPS|Max|Number|psh_flag_number|Std|syn_flag_number|Time_To_Live|Tot sum,0.608880063296457
+2,L1,9,3,0.818181818181818,constructed,DNS|Header_Length|HTTPS|Max|Number|psh_flag_number|rst_count|Std|syn_flag_number|Time_To_Live,0.619585507728971
+2,L1,9,4,0.818181818181818,constructed,DHCP|DNS|Header_Length|HTTPS|Max|Number|psh_flag_number|Rate|syn_flag_number|Time_To_Live,0.625960658847894
+2,L1,9,5,0.818181818181818,constructed,DNS|Header_Length|HTTPS|IAT|Max|Number|Rate|Std|syn_flag_number|Time_To_Live,0.616201166233139
+2,L1,10,1,1,committed,DNS|Header_Length|HTTPS|Max|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live,0.62993922987811
+3,-,,0,,all_36,ack_count|ack_flag_number|ARP|AVG|cwr_flag_number|DHCP|DNS|ece_flag_number|fin_count|fin_flag_number|Header_Length|HTTP|HTTPS|IAT|ICMP|IGMP|IRC|Max|Min|Number|Protocol Type|psh_flag_number|Rate|rst_count|rst_flag_number|SMTP|SSH|Std|syn_count|syn_flag_number|TCP|Telnet|Time_To_Live|Tot sum|UDP|Variance,0.676365448589047
+3,L1,0,1,0,constructed,AVG|cwr_flag_number|ece_flag_number|IAT|rst_count|rst_flag_number|SMTP|syn_count|UDP|Variance,0.547872608806417
+3,L1,0,2,0,constructed,cwr_flag_number|DHCP|ece_flag_number|HTTP|ICMP|IGMP|SMTP|SSH|syn_count|Variance,0.323162895579027
+3,L1,0,3,0,constructed,ack_count|AVG|ece_flag_number|fin_count|ICMP|IGMP|Protocol Type|SMTP|SSH|Telnet,0.476523258103527
+3,L1,0,4,0,constructed,DHCP|IRC|Protocol Type|rst_count|rst_flag_number|SMTP|SSH|syn_count|TCP|Variance,0.444645433975239
+3,L1,0,5,0,constructed,ack_flag_number|ARP|AVG|ece_flag_number|fin_count|fin_flag_number|IGMP|SSH|UDP|Variance,0.503315572274683
+3,L1,1,1,0.0526315789473684,constructed,ack_flag_number|AVG|cwr_flag_number|ece_flag_number|fin_flag_number|HTTP|IRC|Number|Protocol Type|syn_count,0.521848758099505
+3,L1,1,2,0.0526315789473684,constructed,ack_count|cwr_flag_number|ece_flag_number|fin_flag_number|Number|Protocol Type|syn_count|TCP|Tot sum|UDP,0.520248811259806
+3,L1,1,3,0.0526315789473684,constructed,ack_flag_number|ARP|cwr_flag_number|HTTP|IAT|Protocol Type|SMTP|SSH|Time_To_Live|Tot sum,0.582310240205453
+3,L1,1,4,0.0526315789473684,constructed,ack_flag_number|ARP|cwr_flag_number|ece_flag_number|fin_count|fin_flag_number|IAT|rst_flag_number|Std|Variance,0.512962719377442
+3,L1,1,5,0.0526315789473684,constructed,ack_flag_number|ARP|ece_flag_number|HTTP|ICMP|Min|rst_flag_number|SSH|syn_flag_number|Variance,0.566125224244903
+3,L1,2,1,0.111111111111111,constructed,AVG|DHCP|ece_flag_number|HTTPS|IAT|Max|Min|rst_flag_number|Tot sum|Variance,0.614136193925232
+3,L1,2,2,0.111111111111111,constructed,ARP|cwr_flag_number|DNS|fin_count|HTTP|ICMP|IGMP|Max|Min|UDP,0.542935966343455
+3,L1,2,3,0.111111111111111,constructed,ack_flag_number|cwr_flag_number|DHCP|DNS|fin_flag_number|HTTP|IRC|Number|TCP|Telnet,0.409621229632498
+3,L1,2,4,0.111111111111111,constructed,ece_flag_number|ICMP|IGMP|Number|Protocol Type|rst_count|rst_flag_number|SSH|syn_flag_number|Tot sum,0.505765024741848
+3,L1,2,5,0.111111111111111,constructed,ack_count|ack_flag_number|cwr_flag_number|DHCP|fin_flag_number|Header_Length|IAT|Max|Telnet|Variance,0.611556012035169
+3,L1,3,1,0.176470588235294,constructed,cwr_flag_number|ece_flag_number|fin_flag_number|HTTPS|ICMP|IRC|Std|TCP|Time_To_Live|UDP,0.513975662747976
+3,L1,3,2,0.176470588235294,constructed,ack_flag_number|ARP|AVG|DHCP|DNS|Header_Length|IRC|Min|Rate|Variance,0.596540079765087
+3,L1,3,3,0.176470588235294,constructed,DNS|ece_flag_number|fin_flag_number|ICMP|IGMP|Number|psh_flag_number|rst_count|syn_count|UDP,0.447727865680683
+3,L1,3,4,0.176470588235294,constructed,AVG|fin_flag_number|IAT|Max|Protocol Type|rst_flag_number|syn_count|syn_flag_number|Telnet|Time_To_Live,0.615635383281124
+3,L1,3,5,0.176470588235294,constructed,ARP|AVG|DHCP|DNS|ece_flag_number|fin_count|IAT|ICMP|Max|syn_flag_number,0.592248996421346
+3,L1,4,1,0.25,constructed,cwr_flag_number|DHCP|fin_count|fin_flag_number|ICMP|IGMP|Max|psh_flag_number|Rate|Std,0.582864726779787
+3,L1,4,2,0.25,constructed,DNS|Header_Length|HTTPS|IAT|ICMP|IGMP|IRC|Min|Number|Tot sum,0.593061063959449
+3,L1,4,3,0.25,constructed,ack_flag_number|ARP|DNS|fin_flag_number|Min|Number|psh_flag_number|Rate|rst_flag_number|Telnet,0.554575811974727
+3,L1,4,4,0.25,constructed,AVG|cwr_flag_number|DHCP|fin_count|HTTPS|Rate|syn_flag_number|Telnet|Time_To_Live|UDP,0.572699821378548
+3,L1,4,5,0.25,constructed,ack_count|ack_flag_number|cwr_flag_number|Header_Length|IAT|Number|SMTP|SSH|Std|syn_flag_number,0.549313234773987
+3,L1,5,1,0.333333333333333,constructed,ARP|DNS|Header_Length|HTTP|ICMP|Max|psh_flag_number|SMTP|syn_flag_number|Telnet,0.56597269438403
+3,L1,5,2,0.333333333333333,constructed,cwr_flag_number|Max|Number|Protocol Type|Rate|rst_count|rst_flag_number|Std|Time_To_Live|Tot sum,0.610828908842328
+3,L1,5,3,0.333333333333333,constructed,AVG|cwr_flag_number|HTTPS|Max|Number|psh_flag_number|SSH|TCP|Telnet|Time_To_Live,0.601854870848123
+3,L1,5,4,0.333333333333333,constructed,Number|Protocol Type|psh_flag_number|rst_count|Std|syn_count|syn_flag_number|Telnet|Time_To_Live|UDP,0.543213668633124
+3,L1,5,5,0.333333333333333,constructed,cwr_flag_number|IRC|Max|Number|psh_flag_number|rst_count|syn_flag_number|Time_To_Live|Tot sum|UDP,0.592926153107008
+3,L1,6,1,0.428571428571429,constructed,AVG|DNS|Header_Length|HTTPS|IAT|psh_flag_number|Rate|rst_flag_number|TCP|Time_To_Live,0.606167856295983
+3,L1,6,2,0.428571428571429,constructed,ack_flag_number|Header_Length|Max|psh_flag_number|Rate|rst_flag_number|SMTP|SSH|syn_flag_number|Time_To_Live,0.633357502800966
+3,L1,6,3,0.428571428571429,constructed,ARP|DNS|ece_flag_number|Header_Length|Number|psh_flag_number|rst_count|syn_flag_number|Time_To_Live|Variance,0.528263559275541
+3,L1,6,4,0.428571428571429,constructed,ack_flag_number|DNS|HTTPS|psh_flag_number|Rate|rst_flag_number|Std|syn_flag_number|UDP|Variance,0.563627966270331
+3,L1,6,5,0.428571428571429,constructed,ack_flag_number|DNS|ece_flag_number|Header_Length|ICMP|Number|psh_flag_number|syn_flag_number|Time_To_Live|Variance,0.540288649925738
+3,L1,7,1,0.538461538461538,constructed,AVG|fin_count|HTTPS|ICMP|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live,0.620900890020704
+3,L1,7,2,0.538461538461538,constructed,DNS|HTTPS|IAT|Max|Protocol Type|psh_flag_number|Std|syn_flag_number|Telnet|Time_To_Live,0.62039930889067
+3,L1,7,3,0.538461538461538,constructed,DHCP|DNS|Header_Length|HTTPS|Max|Number|Protocol Type|SSH|Std|syn_flag_number,0.590499339158355
+3,L1,7,4,0.538461538461538,constructed,ack_count|fin_count|Header_Length|HTTPS|Number|Rate|rst_count|Std|syn_flag_number|Time_To_Live,0.605956173750989
+3,L1,7,5,0.538461538461538,constructed,DNS|Header_Length|HTTPS|IGMP|Max|Number|Rate|rst_count|SMTP|syn_flag_number,0.614945400786977
+3,L1,8,1,0.666666666666667,constructed,fin_count|Header_Length|HTTPS|Max|Number|psh_flag_number|Rate|Std|Time_To_Live|Tot sum,0.639315023828985
+3,L1,8,2,0.666666666666667,constructed,AVG|DNS|Header_Length|HTTPS|Max|Number|psh_flag_number|rst_flag_number|syn_flag_number|Time_To_Live,0.625978727948428
+3,L1,8,3,0.666666666666667,constructed,AVG|Header_Length|HTTPS|IRC|Max|Number|psh_flag_number|Rate|syn_flag_number|Time_To_Live,0.630224222936947
+3,L1,8,4,0.666666666666667,constructed,AVG|DNS|HTTPS|Number|psh_flag_number|Rate|SMTP|Std|syn_flag_number|Time_To_Live,0.592330619109418
+3,L1,8,5,0.666666666666667,constructed,DNS|Header_Length|IAT|IGMP|Max|Number|psh_flag_number|Std|syn_flag_number|Time_To_Live,0.622135930083215
+3,L1,9,1,0.818181818181818,constructed,Header_Length|HTTPS|Max|Number|psh_flag_number|Rate|SSH|Std|syn_flag_number|Time_To_Live,0.639287735809483
+3,L1,9,2,0.818181818181818,constructed,DNS|Header_Length|HTTPS|Max|Number|Rate|SSH|Std|syn_flag_number|Time_To_Live,0.629423379210491
+3,L1,9,3,0.818181818181818,constructed,DNS|Header_Length|ICMP|Max|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live,0.620147391305162
+3,L1,9,4,0.818181818181818,constructed,DNS|Header_Length|HTTPS|IAT|Max|Number|psh_flag_number|Rate|Std|syn_flag_number,0.621056213250031
+3,L1,9,5,0.818181818181818,constructed,DNS|Header_Length|HTTPS|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live|Variance,0.599097847957364
+3,L1,10,1,1,committed,DNS|Header_Length|HTTPS|Max|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live,0.628859305140352
+4,-,,0,,all_36,ack_count|ack_flag_number|ARP|AVG|cwr_flag_number|DHCP|DNS|ece_flag_number|fin_count|fin_flag_number|Header_Length|HTTP|HTTPS|IAT|ICMP|IGMP|IRC|Max|Min|Number|Protocol Type|psh_flag_number|Rate|rst_count|rst_flag_number|SMTP|SSH|Std|syn_count|syn_flag_number|TCP|Telnet|Time_To_Live|Tot sum|UDP|Variance,0.675036762579843
+4,L1,0,1,0,constructed,ack_count|AVG|ece_flag_number|fin_count|IAT|Protocol Type|rst_flag_number|syn_count|Telnet|Variance,0.585558350227991
+4,L1,0,2,0,constructed,ack_count|ack_flag_number|AVG|cwr_flag_number|fin_flag_number|IAT|IRC|SMTP|Telnet|Tot sum,0.538719821266336
+4,L1,0,3,0,constructed,ack_count|ARP|DHCP|fin_count|HTTP|ICMP|IGMP|Min|Protocol Type|rst_count,0.511674158428313
+4,L1,0,4,0,constructed,ack_count|ack_flag_number|AVG|cwr_flag_number|IGMP|IRC|rst_count|SSH|TCP|Telnet,0.492391134629034
+4,L1,0,5,0,constructed,cwr_flag_number|HTTP|IRC|rst_flag_number|SSH|syn_count|TCP|Tot sum|UDP|Variance,0.554464972791357
+4,L1,1,1,0.0526315789473684,constructed,ack_flag_number|ARP|DHCP|HTTP|IAT|ICMP|psh_flag_number|rst_count|Tot sum|UDP,0.581487563122933
+4,L1,1,2,0.0526315789473684,constructed,ack_count|ece_flag_number|ICMP|IGMP|IRC|Min|Protocol Type|psh_flag_number|TCP|Variance,0.504825123002847
+4,L1,1,3,0.0526315789473684,constructed,ARP|fin_flag_number|IAT|IGMP|rst_count|rst_flag_number|Std|syn_count|Tot sum|UDP,0.566570829913913
+4,L1,1,4,0.0526315789473684,constructed,cwr_flag_number|ece_flag_number|HTTP|Protocol Type|SMTP|Std|syn_count|Telnet|Tot sum|UDP,0.509461068135836
+4,L1,1,5,0.0526315789473684,constructed,cwr_flag_number|Rate|rst_count|rst_flag_number|SMTP|SSH|syn_count|Telnet|Tot sum|Variance,0.531703817018028
+4,L1,2,1,0.111111111111111,constructed,ack_count|ARP|fin_count|fin_flag_number|IAT|Max|Min|SMTP|Std|Variance,0.600826853224994
+4,L1,2,2,0.111111111111111,constructed,ack_count|DHCP|fin_flag_number|HTTP|IAT|IRC|Number|SSH|Std|TCP,0.544641741455912
+4,L1,2,3,0.111111111111111,constructed,ack_count|HTTP|IGMP|Protocol Type|Rate|rst_count|syn_flag_number|TCP|Telnet|Tot sum,0.56991094636161
+4,L1,2,4,0.111111111111111,constructed,ack_count|ece_flag_number|fin_flag_number|IRC|psh_flag_number|SMTP|SSH|Std|TCP|Telnet,0.408237545711779
+4,L1,2,5,0.111111111111111,constructed,ack_count|ARP|AVG|fin_flag_number|Number|Protocol Type|SSH|TCP|Time_To_Live|UDP,0.56424146479456
+4,L1,3,1,0.176470588235294,constructed,ARP|AVG|DHCP|ece_flag_number|fin_flag_number|Header_Length|ICMP|Max|Std|UDP,0.566488313269566
+4,L1,3,2,0.176470588235294,constructed,DHCP|DNS|fin_count|fin_flag_number|Protocol Type|psh_flag_number|Std|TCP|Telnet|UDP,0.441110465133118
+4,L1,3,3,0.176470588235294,constructed,cwr_flag_number|DHCP|DNS|fin_count|Header_Length|HTTP|ICMP|IRC|Max|Min,0.574064240711592
+4,L1,3,4,0.176470588235294,constructed,ack_flag_number|cwr_flag_number|IRC|Protocol Type|Rate|rst_flag_number|SSH|syn_flag_number|TCP|Time_To_Live,0.563522585598588
+4,L1,3,5,0.176470588235294,constructed,ack_count|DHCP|DNS|ece_flag_number|HTTP|Min|Number|SSH|Time_To_Live|UDP,0.518485112552974
+4,L1,4,1,0.25,constructed,ack_count|cwr_flag_number|Header_Length|HTTPS|IRC|Max|Number|SMTP|syn_count|Variance,0.59278936675776
+4,L1,4,2,0.25,constructed,DHCP|fin_count|HTTPS|IRC|Max|psh_flag_number|SMTP|SSH|Std|TCP,0.574743289557955
+4,L1,4,3,0.25,constructed,AVG|ece_flag_number|HTTPS|Max|Protocol Type|psh_flag_number|syn_count|syn_flag_number|Telnet|Variance,0.580914853710777
+4,L1,4,4,0.25,constructed,DNS|ece_flag_number|fin_flag_number|HTTPS|Max|Number|rst_flag_number|SSH|TCP|Telnet,0.572355906903714
+4,L1,4,5,0.25,constructed,AVG|DNS|Header_Length|IAT|ICMP|psh_flag_number|rst_count|rst_flag_number|syn_flag_number|Tot sum,0.589672603729277
+4,L1,5,1,0.333333333333333,constructed,ARP|DNS|fin_flag_number|HTTP|Max|Number|Rate|SMTP|SSH|syn_flag_number,0.588250750905407
+4,L1,5,2,0.333333333333333,constructed,DNS|ece_flag_number|fin_flag_number|Header_Length|Min|Protocol Type|Rate|syn_count|syn_flag_number|Time_To_Live,0.586773901513497
+4,L1,5,3,0.333333333333333,constructed,ARP|DHCP|Header_Length|HTTP|ICMP|Max|psh_flag_number|Rate|syn_flag_number|Telnet,0.60828397334436
+4,L1,5,4,0.333333333333333,constructed,ARP|Header_Length|HTTP|IAT|IRC|psh_flag_number|Rate|rst_flag_number|Std|syn_flag_number,0.574678673231962
+4,L1,5,5,0.333333333333333,constructed,ack_flag_number|AVG|DNS|HTTPS|Max|Rate|rst_flag_number|SMTP|SSH|Std,0.611288278447665
+4,L1,6,1,0.428571428571429,constructed,DNS|HTTPS|ICMP|IRC|Max|Number|psh_flag_number|rst_flag_number|syn_flag_number|Variance,0.611263291336819
+4,L1,6,2,0.428571428571429,constructed,DNS|ece_flag_number|Header_Length|ICMP|Max|Number|Rate|rst_flag_number|SSH|syn_flag_number,0.607921934192761
+4,L1,6,3,0.428571428571429,constructed,fin_flag_number|Header_Length|HTTP|HTTPS|IAT|Number|psh_flag_number|Rate|rst_count|Time_To_Live,0.577440327329253
+4,L1,6,4,0.428571428571429,constructed,AVG|DNS|ece_flag_number|fin_flag_number|HTTPS|ICMP|Number|psh_flag_number|Std|Time_To_Live,0.589078011158645
+4,L1,6,5,0.428571428571429,constructed,DNS|ece_flag_number|fin_count|Header_Length|HTTPS|IRC|Rate|rst_flag_number|Std|syn_flag_number,0.563558306243478
+4,L1,7,1,0.538461538461538,constructed,AVG|DNS|Header_Length|HTTPS|Max|Number|Protocol Type|Std|TCP|Time_To_Live,0.594402874524203
+4,L1,7,2,0.538461538461538,constructed,ack_count|Header_Length|Max|Min|Number|psh_flag_number|Rate|rst_count|Std|syn_flag_number,0.641253108922591
+4,L1,7,3,0.538461538461538,constructed,DNS|fin_flag_number|HTTPS|Max|Number|Protocol Type|psh_flag_number|Rate|Std|syn_count,0.629963725540785
+4,L1,7,4,0.538461538461538,constructed,ack_count|DNS|ece_flag_number|fin_count|HTTPS|Max|psh_flag_number|Rate|Std|syn_flag_number,0.610534690509208
+4,L1,7,5,0.538461538461538,constructed,DNS|fin_count|Header_Length|HTTPS|IAT|Max|Protocol Type|psh_flag_number|Std|Time_To_Live,0.63018173849719
+4,L1,8,1,0.666666666666667,constructed,Header_Length|HTTPS|IRC|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live|UDP,0.594997253501214
+4,L1,8,2,0.666666666666667,constructed,ack_flag_number|DNS|fin_flag_number|Header_Length|HTTPS|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live,0.603954933828377
+4,L1,8,3,0.666666666666667,constructed,ack_flag_number|DNS|Header_Length|Number|psh_flag_number|Rate|Std|syn_flag_number|Telnet|Time_To_Live,0.580707598737781
+4,L1,8,4,0.666666666666667,constructed,DNS|Header_Length|Max|Min|psh_flag_number|Rate|Std|syn_flag_number|Telnet|Time_To_Live,0.631509277045665
+4,L1,8,5,0.666666666666667,constructed,Header_Length|HTTPS|Max|Min|Number|psh_flag_number|Rate|SMTP|Std|syn_flag_number,0.639672744428218
+4,L1,9,1,0.818181818181818,constructed,DNS|Header_Length|HTTPS|IGMP|Max|Number|psh_flag_number|Rate|Std|syn_flag_number,0.620876815536445
+4,L1,9,2,0.818181818181818,constructed,DHCP|DNS|Header_Length|HTTPS|Max|Number|psh_flag_number|Rate|Std|Time_To_Live,0.620202349359133
+4,L1,9,3,0.818181818181818,constructed,Header_Length|HTTPS|ICMP|Max|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live,0.626794092402476
+4,L1,9,4,0.818181818181818,constructed,fin_flag_number|Header_Length|HTTPS|Max|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live,0.64039677296918
+4,L1,9,5,0.818181818181818,constructed,DNS|Header_Length|HTTPS|Max|Number|psh_flag_number|Std|syn_flag_number|TCP|Time_To_Live,0.607591003935111
+4,L1,10,1,1,committed,DNS|Header_Length|HTTPS|Max|Number|psh_flag_number|Rate|Std|syn_flag_number|Time_To_Live,0.627138938175888

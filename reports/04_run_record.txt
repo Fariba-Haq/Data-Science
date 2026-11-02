@@ -1,0 +1,17 @@
+timestamp      : 2026-08-15 03:56:03
+R version      : R version 4.6.0 (2026-04-24 ucrt)
+platform       : x86_64-w64-mingw32
+data.table     : 1.18.4
+seed           : 13
+TEST_FRACTION  : 0.30
+USE_LOG1P      : TRUE
+SCALE_TYPE     : iqr
+CLIP_Z         : 3
+features       : 36
+train rows     : 1503267
+test rows      : 644254
+robust spread  : 17 columns
+SD fallback    : 19 columns
+mean clip rate : 0.0230
+max clip rate  : 0.1490 (Min)
+max scale divergence safe vs leaky: 0.0402525

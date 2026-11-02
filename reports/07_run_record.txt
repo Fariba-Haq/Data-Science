@@ -1,0 +1,9 @@
+timestamp        : 2026-08-15 12:18:43
+R version        : R version 4.6.0 (2026-04-24 ucrt)
+glmnet / ranger  : 5.0 / 0.18.0
+seed             : 13
+configurations   : 225
+selectors        : L1 logistic (glmnet), RF impurity (ranger, 200 trees)
+k values         : 5, 10, 15
+CONTROL Nogueira L1 (k=10): 0.8900
+CONTROL Nogueira RF (k=10): 0.7923

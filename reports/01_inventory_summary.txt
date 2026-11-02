@@ -1,0 +1,65 @@
+CIC-IoT2023 — STAGE 1 INVENTORY
+run at        : 2026-08-15 04:12:23
+R / data.table: 4.6.0 / 1.18.4
+RAW_DIR       : D:\0.1.Researches\DS\1.Dataset_author
+
+csv files     : 309
+label folders : 34
+total rows    : 46,776,697
+raw columns   : 39 (no label column; label = folder name)
+benign rows   : 1,098,191
+BENIGN SHARE  : 2.3477%
+smallest label: Uploading_Attack = 1,252 rows
+
+--- columns ---
+ 1. Header_Length
+ 2. Protocol Type
+ 3. Time_To_Live
+ 4. Rate
+ 5. fin_flag_number
+ 6. syn_flag_number
+ 7. rst_flag_number
+ 8. psh_flag_number
+ 9. ack_flag_number
+10. ece_flag_number
+11. cwr_flag_number
+12. ack_count
+13. syn_count
+14. fin_count
+15. rst_count
+16. HTTP
+17. HTTPS
+18. DNS
+19. Telnet
+20. SMTP
+21. SSH
+22. IRC
+23. TCP
+24. UDP
+25. DHCP
+26. ARP
+27. ICMP
+28. IGMP
+29. IPv
+30. LLC
+31. Tot sum
+32. Min
+33. Max
+34. AVG
+35. Std
+36. Tot size
+37. IAT
+38. Number
+39. Variance
+
+--- categories ---
+     category n_labels n_files     rows share_pct
+       <char>    <int>   <int>    <int>     <num>
+1:       DDoS       12     176 33984450   72.6525
+2:        DoS        4      38  7845117   16.7714
+3:      Mirai        3      76  2634054    5.6311
+4:     Benign        1       4  1098191    2.3477
+5:      Recon        5       5   690534    1.4762
+6:   Spoofing        2       3   486458    1.0400
+7:        Web        6       6    24829    0.0531
+8: BruteForce        1       1    13064    0.0279
